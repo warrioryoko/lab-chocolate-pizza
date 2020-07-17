@@ -25,14 +25,17 @@ p {
     float: left;
 }
 
-.social-media {
-    display: inline;
-    float: right;
-}
-
 span {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 70vw;
+}
+
+.ingredients  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    background-image: url(./lab-assets/list-bg.png);
 }
