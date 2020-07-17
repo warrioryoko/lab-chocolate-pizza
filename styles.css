@@ -18,7 +18,7 @@ p {
 }
 
 #chocolate-cake-pic {
-    height: 300px;
+    width: 70vw;
 }
 
 #nav-logo {
@@ -34,4 +34,5 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 70vw;
 }
