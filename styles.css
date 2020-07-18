@@ -8,11 +8,6 @@ body {
     flex-direction: column;
 }
 
-p {
-    background-color: #ffebcd;;
-    border: 2px solid black;
-}
-
 .container {
     width: 70vw;
 }
@@ -38,4 +33,36 @@ span {
     justify-content: space-between;
     width: 70vw;
     background-image: url(./lab-assets/list-bg.png);
+}
+
+.hr-bar {
+    background-image: url(./lab-assets/hr-img.png);
+    width: 70vw;
+    height: 10px;
+}
+
+.author {
+    display: flex;
+}
+
+.logo-line {
+    display: flex;
+    align-items: center;
+}
+
+.hr {
+    z-index: -1;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.small-logo {
+    display: block;
+    margin-left: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
