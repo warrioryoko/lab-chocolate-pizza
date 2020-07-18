@@ -13,7 +13,7 @@ body {
 }
 
 #chocolate-cake-pic {
-    width: 70vw;
+    width: 100%;
 }
 
 #nav-logo {
@@ -45,9 +45,27 @@ span {
     display: flex;
 }
 
+.author-image {
+    width: 15%;
+}
+
+.author-text {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+button {
+    width: 30%;
+    background-color: rgb(188, 115, 12);
+    color: white;
+    border: none;
+    border-radius: 2px;
+} 
+
 .logo-line {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .hr {
